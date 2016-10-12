@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+body {
+	background-color:#A5B4D4 ;
+    display : table;
+    width: 100%;
+}
+#footer {
+position:fixed;
+bottom:0;
+left:0;
+height:75px;
+background-color:#138CF0;
+width:100%;
+text-align:right;
+}
+
+#entete{
+background-color:#138CF0;
+
+}
+
+h2{
+color:#23537A;
+}
+
+#contenu{
+text-align:center;
+}
+
+#ami{
+text-align:left;
+}
