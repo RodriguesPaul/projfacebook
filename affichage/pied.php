@@ -5,7 +5,7 @@
 echo "</body>";
 echo "<div id='footer'>";
  echo "<footer> </br> </br>";
- echo "Copyright";
+ echo "Copyright de ouf";
  echo "</footer>";
 
 echo "</div>";
