@@ -26,8 +26,8 @@ if($_GET['id']==$_SESSION['id']) {
 	$query->execute(array($_GET['id'],$_SESSION['id'],$_SESSION['id'],$_GET['id']));
 	$ok = $query->fetch();
 if($ok==false) {
-	echo "Vous n'êtes pas encore ami, vous ne pouvez voir son mur !!";
-	echo lien("../traitement/demanderamitie.php?etat=attente&id=".$_GET['id'],"voulez vous devenir son ami ?");
+	echo "vous n'etes pas amis";
+	echo lien("../traitement/demanderamitie.php?etat=attente&id=".$_GET['id'],"Demande d'amitié");
 	die(1);
 	}
 }
