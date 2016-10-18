@@ -13,9 +13,9 @@ echo "<div id='entete'>";
 echo "<h1> Titre </h1>";
 if(isset($_SESSION["login"])){
 	echo "Connected as ".$_SESSION["login"]."</br>";
-	echo "<a href='../traitement/deconnexion.php'> Deconnexion </a> </br>";
-	echo "<a href='../affichage/ami.php'>liste amis</a> </br>";
-	echo "<a href='../affichage/mur.php'>retour au mur</a> </br>";
+	echo "<a href='../traitement/deconnexion.php'> Deconnexion </a></br>";
+	echo "<a href='../affichage/ami.php'>liste amis</a></br>";
+	echo "<a href='../affichage/mur.php?id=".$_SESSION['id']."'>Votre mur</a></br>";
 echo "</div>";
 }
 // Ici il faut mettre l'entete de la page pour pas la réécrire à chaque fois !
